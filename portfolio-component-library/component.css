@@ -3,6 +3,7 @@
 :root {
     
     --base-color: #2563EB;
+    --dark-gray: #6B7280;
 
     
 }
@@ -110,4 +111,33 @@ hr {
 
     font-weight: bold;
 }
+
+/* header */
+
+.header {
+    padding: 2rem;
+}
+
+.header .header-img {
+
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.header-heading {
+
+    font-size: 2rem;
+    color: var(--dark-gray);
+
+    padding-top: 1rem;
+}
+
+.header-heading .heading-content {
+
+    color: var(--base-color);
+}
+
+
 
