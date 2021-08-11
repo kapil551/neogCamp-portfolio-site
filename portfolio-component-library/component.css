@@ -58,3 +58,20 @@ hr {
     border: 1px solid var(--base-color);
     border-radius: 0.5rem;
 } 
+
+/* lists */
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+
+    /* border: 1px solid red; */
+    
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
