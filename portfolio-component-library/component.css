@@ -14,12 +14,17 @@
     
 }
 
+hr {
+
+    margin: 2rem 0rem;
+}
+
 /* container */
 
 .container {
 
     border: 1px solid red;
-    
+
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -29,3 +34,27 @@
     max-width: 600px;
     margin: auto;
 }
+
+/* links */
+
+.link {
+    text-decoration: none;
+
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+
+    background-color: var(--base-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+
+    color: var(--base-color);
+
+    border: 1px solid var(--base-color);
+    border-radius: 0.5rem;
+} 
