@@ -4,6 +4,7 @@
     
     --base-color: #2563EB;
     --dark-gray: #6B7280;
+    --light-gray: #F3F4F6;
 
     
 }
@@ -132,6 +133,8 @@ hr {
     color: var(--dark-gray);
 
     padding-top: 1rem;
+
+    text-align: center;
 }
 
 .header-heading .heading-content {
@@ -139,5 +142,28 @@ hr {
     color: var(--base-color);
 }
 
+/* sections */
 
+.section {
 
+    /* border: 1px solid red; */
+    
+    padding: 2rem;
+    
+}
+
+.section h1 {
+
+    /* border: 1px solid pink; */
+    
+    text-align: center;
+    
+}
+
+.section.ow {
+    background-color: var(--light-gray);
+}
+
+.section.white {
+    background-color: white;
+}
