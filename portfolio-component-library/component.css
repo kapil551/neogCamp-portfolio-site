@@ -10,13 +10,16 @@
 }
 
 * {
-
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
+
     margin: 0px;
+    padding: 0px;
+    
     box-sizing: border-box;
+
 }
 
 hr {
@@ -105,9 +108,7 @@ hr {
 
     border-bottom-left-radius: 1rem;
 
-    position: sticky;
-    top: 0;
-    width: 100%;
+    
 }
 
 .navigation .nav-brand {
