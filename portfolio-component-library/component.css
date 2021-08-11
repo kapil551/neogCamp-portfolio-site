@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    
+    --base-color: #2563EB;
+    --dark-gray: #6B7280;
+    --light-gray: #F3F4F6;
+
+    
+}
+
+* {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+hr {
+
+    margin: 2rem 0rem;
+}
+
+/* container */
+
+.container {
+
+    /* border: 1px solid red; */
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+
+    background-color: var(--base-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+
+    color: var(--base-color);
+
+    border: 1px solid var(--base-color);
+    border-radius: 0.5rem;
+} 
+
+/* lists */
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+
+    /* border: 1px solid red; */
+    
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+/* navigation */
+
+.navigation {
+
+    background-color: var(--base-color);
+    color: white;
+
+    padding: 1rem;
+
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+
+    /* border: 1px solid red; */
+
+    text-align: right;
+}
+
+.navigation .link {
+
+    color: white;
+
+}
+
+.navigation .link-active {
+
+    font-weight: bold;
+}
+
+/* header */
+
+.header {
+    padding: 2rem;
+}
+
+.header .header-img {
+
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.header-heading {
+
+    font-size: 2rem;
+    color: var(--dark-gray);
+
+    padding-top: 1rem;
+
+    text-align: center;
+}
+
+.header-heading .heading-content {
+
+    color: var(--base-color);
+}
+
+/* sections */
+
+.section {
+
+    /* border: 1px solid red; */
+    
+    padding: 2rem;
+    
+}
+
+.section h1 {
+
+    /* border: 1px solid pink; */
+    
+    text-align: center;
+    
+}
+
+.section.ow {
+    background-color: var(--light-gray);
+}
+
+.section.white {
+    background-color: white;
+}
+
+/* footer */
+.footer {
+    background-color: var(--base-color);
+
+    padding: 2rem;
+    text-align: center;
+    color: white;
+
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
