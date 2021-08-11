@@ -23,7 +23,7 @@ hr {
 
 .container {
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     padding-left: 1rem;
     padding-right: 1rem;
@@ -73,5 +73,41 @@ hr {
     display: inline;
     padding: 0rem 0.5rem;
 
+}
+
+/* navigation */
+
+.navigation {
+
+    background-color: var(--base-color);
+    color: white;
+
+    padding: 1rem;
+
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+
+    /* border: 1px solid red; */
+
+    text-align: right;
+}
+
+.navigation .link {
+
+    color: white;
+
+}
+
+.navigation .link-active {
+
+    font-weight: bold;
 }
 
