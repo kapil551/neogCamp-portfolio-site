@@ -5,8 +5,12 @@
     --base-color: #2563EB;
     --dark-gray: #6B7280;
     --light-gray: #F3F4F6;
-
     
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {
